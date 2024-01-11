@@ -1,0 +1,59 @@
+/* 
+Basic Structure
+*/
+:root {
+    --primary: #1ABC9C;
+    --seconday: #2C3E50;
+    --ancent: #ffffff;
+}
+
+/* 
+Nav section style 
+*/
+.navbar {
+    background-color: var(--seconday) !important;
+}
+
+.navbar li a {
+    color: var(--ancent);
+}
+
+.navbar-brand {
+    color: var(--ancent);
+}
+
+.navbar-custom-width {
+    width: 60%;
+}
+
+.active {
+    background-color: var(--primary);
+    color: var(--ancent) !important;
+    border-radius: 5px;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+}
+
+/* 
+Hero Section Style
+*/
+#hero-section-container {
+    background-color: var(--primary);
+    padding-top: 80px;
+    padding-bottom: 80px;
+    color: var(--ancent);
+}
+
+#hero-section-container h1 {
+    font-size: 70px;
+}
+
+#hero-section-container p {
+    font-size: 25px;
+}
+
+.hero-img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
